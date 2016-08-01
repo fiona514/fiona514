@@ -1,0 +1,100 @@
+# Markdown syntax guide and writing on MWeb
+
+## Philosophy
+
+> Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
+> Readability, however, is emphasized above all else. A Markdown-formatted document should be publishable as-is, as plain text, without looking like it's been marked up with tags or formatting instructions.
+> Markdown's syntax is intended for one purpose: to be used as a format for *writing* for the web.
+
+<!-- more -->
+
+## Notice
+
+You can use  `CMD + R` to preview the result.
+
+## Headers
+
+**Example:**
+
+```
+# This is an `<h1>` tag
+## This is an `<h2>` tag
+###### This is an `<h6>` tag
+```
+
+**Result:**
+
+# This is an `<h1>` tag
+## This is an `<h2>` tag
+###### This is an `<h6>` tag
+
+## Emphasis
+
+**Example:**
+
+```
+*This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+*You **can** combine them*
+```
+
+**Shortcuts:**  `CMD + U`、`CMD + I`、`CMD + B`
+**Result:**
+
+*This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+*You **can** combine them*
+
+## Newlines
+
+End a line with two or more spaces + enter.
+Just typing enter to newline,please set：`Preferences` - `Themes` - `Translate newlines to <br> tags`  enable ( default is enable )
+
+## Lists
+
+### Unordered
+
+**Example:**
+
+```
+* Item 1 unordered list `* + SPACE`
+* Item 2
+	* Item 2a unordered list `* + TAB + SPACE`
+	* Item 2b
+```
+
+**Shortcuts:**  `Option + U`
+**Result:**
+
+* Item 1 unordered list `* + SPACE`
+* Item 2
+	* Item 2a unordered list `* + TAB + SPACE`
+	* Item 2b
+
+### Ordered
+
+**Example:**
+
+```
+1. Item 1 ordered list `Number + . + SPACE`
+2. Item 2 
+3. Item 3
+	1. Item 3a ordered list `Number + . + TAB + SPACE`
+	2. Item 3b
+```
+
+**Result:**
+
+1. Item 1 ordered list `Number + . + SPACE`
+2. Item 2 
+3. Item 3
+	1. Item 3a ordered list `Number + . + TAB + SPACE`
+	2. Item 3b
